@@ -8,6 +8,9 @@ https://github.com/VBrazhnik/docker-1/wiki/How-to-Docker
 Official doc (en) :
 https://docs.docker.com/get-started/ 
 
+Youtube playlist from automation step by step
+
+
 Command to delete :
 docker-machine rm "name"
 
