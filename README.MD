@@ -8,7 +8,8 @@ https://github.com/VBrazhnik/docker-1/wiki/How-to-Docker
 Official doc (en) :
 https://docs.docker.com/get-started/ 
 
-Youtube playlist from automation step by step
+Youtube playlist from automation step by step :
+https://www.youtube.com/playlist?list=PLhW3qG5bs-L99pQsZ74f-LC-tOEsBp2rK
 
 
 Command to delete :
