@@ -11,6 +11,8 @@ https://docs.docker.com/get-started/
 Youtube playlist from automation step by step :
 https://www.youtube.com/playlist?list=PLhW3qG5bs-L99pQsZ74f-LC-tOEsBp2rK
 
+https://www.youtube.com/watch?v=G36I1iqDZig
+
 
 Command to delete :
 docker-machine rm "name"
