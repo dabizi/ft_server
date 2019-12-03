@@ -17,10 +17,10 @@ docker-machine create --driver "virtualbox" "Char"
 docker-machine ip Char
 eval $(docker-machine env Char)
 docker pull debian:buster
- #docker run -it <imageID> /bin/bash
-# get-out with exit
-# docker start <imageID>
-# possibility to change then commit
+docker run -it <imageID> /bin/bash
+get-out with exit
+docker start <imageID>
+possibility to change then commit
 docker exec -it ft_server /bin/bash
    
 Docker run --help 
