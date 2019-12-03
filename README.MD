@@ -13,6 +13,13 @@ https://www.youtube.com/playlist?list=PLhW3qG5bs-L99pQsZ74f-LC-tOEsBp2rK
 
 https://www.youtube.com/watch?v=G36I1iqDZig
 
+docker-machine create --driver "virtualbox" "Char"
+docker-machine ip Char
+eval $(docker-machine env Char)
+docker pull debian:buster
+
+
+
 Docker run --help 
 => -p, --publish list                   Publish a container's port(s) to the host
    -P, --publish-all                    Publish all exposed ports to random ports
@@ -30,5 +37,5 @@ docker-machine rm "name"
 Ex :
 docker-machine rm "Char"
 
-
+Dockerhub to get the registry: 
 https://www.youtube.com/watch?v=PbiYll21Jxg&list=PLZdsdjcJ44WU_cY2Y1LFLnmsSjFD5BZLZ
