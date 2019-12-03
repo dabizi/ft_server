@@ -20,6 +20,9 @@ Docker run --help
 
 => docker run -td --name ft_server -p 80:80 ft_server:1.0
 
+Run the container :
+=> docker exec -it ft_server /bin/bash
+
 Command to delete :
 docker-machine rm "name"
 
