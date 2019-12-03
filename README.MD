@@ -13,6 +13,10 @@ https://www.youtube.com/playlist?list=PLhW3qG5bs-L99pQsZ74f-LC-tOEsBp2rK
 
 https://www.youtube.com/watch?v=G36I1iqDZig
 
+Docker run --help 
+=> -p, --publish list                   Publish a container's port(s) to the host
+   -P, --publish-all                    Publish all exposed ports to random ports
+   -d, --detach                         Run container in background and print container ID
 
 Command to delete :
 docker-machine rm "name"
