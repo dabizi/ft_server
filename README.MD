@@ -18,10 +18,17 @@ docker-machine ip Char
 eval $(docker-machine env Char)
 docker pull debian:buster
 docker run -it <imageID> /bin/bash
-get-out with exit
+   
+   
+To get-out :
+exit
 docker start <imageID>
 possibility to change then commit
+
+
 docker exec -it ft_server /bin/bash
+Possibility to do it with php : 
+docker exec -it ft_server php -a
    
 Docker run --help 
 => -p, --publish list                   Publish a container's port(s) to the host
