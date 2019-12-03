@@ -18,6 +18,8 @@ Docker run --help
    -P, --publish-all                    Publish all exposed ports to random ports
    -d, --detach                         Run container in background and print container ID
 
+=> docker run -td --name ft_server -p 80:80 ft_server:1.0
+
 Command to delete :
 docker-machine rm "name"
 
