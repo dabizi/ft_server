@@ -21,6 +21,7 @@ docker pull debian:buster
 # get-out with exit
 # docker start <imageID>
 # possibility to change then commit
+docker exec -it ft_server /bin/bash
    
 Docker run --help 
 => -p, --publish list                   Publish a container's port(s) to the host
