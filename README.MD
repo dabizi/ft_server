@@ -29,7 +29,10 @@ possibility to change then commit
 docker exec -it ft_server /bin/bash
 Possibility to do it with php : 
 docker exec -it ft_server php -a
-   
+
+Useful :
+docker rename
+
 Docker run --help 
 => -p, --publish list                   Publish a container's port(s) to the host
    -P, --publish-all                    Publish all exposed ports to random ports
