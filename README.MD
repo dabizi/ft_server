@@ -29,3 +29,6 @@ docker-machine rm "name"
 
 Ex :
 docker-machine rm "Char"
+
+
+https://www.youtube.com/watch?v=PbiYll21Jxg&list=PLZdsdjcJ44WU_cY2Y1LFLnmsSjFD5BZLZ
