@@ -17,10 +17,11 @@ docker-machine create --driver "virtualbox" "Char"
 docker-machine ip Char
 eval $(docker-machine env Char)
 docker pull debian:buster
-# docker run -it <imageID> /bin/bash
+ #docker run -it <imageID> /bin/bash
 # get-out with exit
 # docker start <imageID>
-
+# possibility to change then commit
+   
 Docker run --help 
 => -p, --publish list                   Publish a container's port(s) to the host
    -P, --publish-all                    Publish all exposed ports to random ports
