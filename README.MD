@@ -18,6 +18,10 @@ More doc :
 https://www.itzgeek.com/how-tos/linux/debian/how-to-install-phpmyadmin-with-nginx-on-debian-10.html
 https://www.linuxbabe.com/debian/install-lemp-stack-debian-10-buster
 
+Even more doc :
+https://www.osradar.com/install-wordpress-debian-10/
+https://www.digitalocean.com/community/tutorials/how-to-install-phpmyadmin-from-source-debian-10
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mariadb-php-lemp-stack-on-debian-10
 
 1. docker-machine create --driver "virtualbox" "Char"
 
