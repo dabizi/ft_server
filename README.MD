@@ -23,7 +23,7 @@ https://www.linuxbabe.com/debian/install-lemp-stack-debian-10-buster
 
 2. docker build -t ft_server .
 
-3. docker run
+3. docker run -ti -p1234:80 -p1235:443 ft_server
 
 docker-machine ip Char
 eval $(docker-machine env Char)
