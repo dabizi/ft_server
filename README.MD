@@ -11,9 +11,20 @@ https://docs.docker.com/get-started/
 Youtube playlist from automation step by step :
 https://www.youtube.com/playlist?list=PLhW3qG5bs-L99pQsZ74f-LC-tOEsBp2rK
 
+Other youtube playlist :
 https://www.youtube.com/watch?v=G36I1iqDZig
 
-docker-machine create --driver "virtualbox" "Char"
+More doc : 
+https://www.itzgeek.com/how-tos/linux/debian/how-to-install-phpmyadmin-with-nginx-on-debian-10.html
+https://www.linuxbabe.com/debian/install-lemp-stack-debian-10-buster
+
+
+1. docker-machine create --driver "virtualbox" "Char"
+
+2. docker build -t ft_server .
+
+3. docker run
+
 docker-machine ip Char
 eval $(docker-machine env Char)
 docker pull debian:buster
