@@ -5,13 +5,13 @@
 
 # Useful
 To list container \
-docker ps \
+docker ps 
 
 To stop container \
-docker stop <id> \
+docker stop <id> 
 
 To remove container \
-docker rm <id> \
+docker rm <id> 
 
 docker build -t ft_image . \
 docker run -d --name ft_container -p 8000:80 ft_image \
