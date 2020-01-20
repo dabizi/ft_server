@@ -4,6 +4,12 @@
 
 
 # Useful
+To list images \
+docker images
+
+To remove image \
+docker rmi <id>
+  
 To list container \
 docker ps 
 
