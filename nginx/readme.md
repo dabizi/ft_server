@@ -40,3 +40,4 @@ docker run -d --name ft_container -p 8000:80 ft_image \
 docker exec ft_container rm -rf /var/www/html/index.html 
 
 # Source
+https://medium.com/code-to-express/https-medium-com-kumarnitish-hosting-static-site-using-nginx-web-server-in-docker-container-167b31df70bb
