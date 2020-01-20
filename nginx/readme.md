@@ -5,7 +5,8 @@ check if it's working on http://localhost:8080/ and then delete the index.
 
 # Steps 
 In the root directory that contains the dockerfile, execute the following command : \
-docker build -t ft_image . \ 
+docker build -t ft_image .
+
 Once everything is build, you now have an image. You can check its existence with the \
 command : docker images \
 Then you have to launch the container : \
