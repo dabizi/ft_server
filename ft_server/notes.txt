@@ -1,0 +1,45 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    notes.txt                                          :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: jgrandne <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/11/27 15:15:14 by jgrandne          #+#    #+#              #
+#    Updated: 2019/11/28 14:49:34 by jgrandne         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+From : Automation Step by Step youtube channel.
+
+Docker is an open source project.
+At its heart, it aims to solve the issue of an application working on
+one platform and not the other one.
+
+"Docker makes the process of application deployment very easy and efficient
+and resolves a lot of issues related to deploying applications."
+
+It is the world's leading software container platform. It is a tool
+designed to make it easier to deploy and run applications by using
+containers.
+
+Containers allow a developer to package up an application with all of the parts
+it needs, such as libraries and other dependencies, and ship it all out as one
+package.
+
+Containers are light-weight compared to virtualization.
+
+An application inside a container can run on any system that has Docker
+installed. So there is no need to build and configure app multiple times
+on different platforms. Docker containers can run on any platform.
+
+With Docker every application works in isolation in its own container and 
+does not interferes with other applications running on the same system.
+
+Running a image creates a container
+
+What is Dockerfile
+https://www.youtube.com/watch?v=LQjaJINkQXY
+
+Dockerfile = Simple instruction to build an image
+=> Automation of Docker Image Creation

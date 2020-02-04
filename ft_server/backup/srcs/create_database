@@ -1,0 +1,4 @@
+CREATE DATABASE wordpress;
+CREATE USER 'jgrandne'@'localhost' IDENTIFIED BY '42';
+GRANT ALL ON wordpress.* TO 'jgrandne'@'localhost' IDENTIFIED BY '42' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
