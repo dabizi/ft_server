@@ -55,6 +55,7 @@ RUN echo '\e[36m\e[1m========= STARTING ==========\e[0m'
 RUN rm /var/www/html/index.nginx-debian.html
 RUN service mysql start && mysql -uroot -proot mysql < "/utils/init.sql"
 
+RUN echo '\e[36m\e[1m========= SSL ==========\e[0m'
 RUN openssl req -x509 -nodes -days 365 -newkey rsa:2048\
     -subj '/C=FR/ST=75/L=Paris/O=42/CN=jgrandne'\
     -keyout /etc/ssl/private/nginx-selfsigned.key -out /etc/ssl/certs/nginx-selfsigned.crt
