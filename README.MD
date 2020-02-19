@@ -1,5 +1,6 @@
 # 42 FT_SERVER
 
-We will go step by step;
-
 Final project is in rendu folder
+
+Docker project with phpmyadmin && wordpress.
+Works with ssl and create locally the ssl certificate
